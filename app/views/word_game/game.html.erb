@@ -1,0 +1,14 @@
+
+
+
+<form action="/score" class="form-control">
+  <h1>Longest Word</h1>
+  <p>******** Welcome to the longest word-game!********</p>
+  <p><%= @grid %></p>
+  <p><%= @start_time %></p>
+
+  <input  type="text" id="question" name="attempt"  placeholder="Your answer">
+  <input type="submit" value="Go on!">
+    <input type="hidden" name="grid" value="<%= @grid %>" >
+</form>
+
